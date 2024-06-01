@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #77aaff 3px solid; }
+        header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; }
+        header li { float: left; display: inline; padding: 0 20px 0 20px; }
+        header #branding { float: left; }
+        header #branding h1 { margin: 0; }
+        header nav { float: right; margin-top: 10px; }
+        footer { background: #333; color: #fff; text-align: center; padding: 30px; margin-top: 30px; }
+        .profile-pic { text-align: left; margin-top: 20px; }
+        .profile-pic img { border-radius: 50%; width: 200px; height: 240px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>資安專業網站</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">首頁</a></li>
+                    <li><a href="#about">關於我</a></li>
+                    <li><a href="#notes">資安筆記</a></li>
+                    <li><a href="#contact">聯絡我</a></li>
+                    <li><a href="#github">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="profile-pic">
+                <img src="Personal.jpg" alt="頭像">
+            </div>
+            <h2>歡迎來到我的個人網站</h2>
+            <p>這裡是我的個人網站，展示我的資安工作和研究成果。</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>關於我</h2>
+            <p>我是從事資安工作約2年的新人，目前於資通電軍的網路戰聯隊服役，已經獲得資安領域的證照歷如：OSCP、CPENT、CTIA等。目前也正在持續學習與研究公開漏洞，經常會參考Exploit-DB等揭露漏洞網站，近期正在自己嘗試搭建漏洞環境以求更全面的了解資安風險及管控。</p>
+        </div>
+    </section>
+
+    <section id="notes">
+        <div class="container">
+            <h2>資安筆記</h2>
+            <ul>
+                <li><a href="https://hackmd.io/@你的用戶名">HackMD 資安筆記</a></li>
+                <!-- 您可以添加更多的筆記連結 -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>聯絡我</h2>
+            <p>電子郵件: <a href="mailto:wastiphiby@gmail.com">wastiphiby@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/min-cheng-tsai-a26055214">www.linkedin.com/in/min-cheng-tsai-a26055214</a></p>
+        </div>
+    </section>
+
+    <section id="github">
+        <div class="container">
+            <h2>GitHub</h2>
+            <p><a href="https://github.com/40547008s">訪問我的 GitHub 頁面</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>個人網站 &copy; 2024</p>
+    </footer>
+</body>
+</html>
